@@ -1,0 +1,76 @@
+
+
+
+
+h1{
+  /*font-family:"Libre Baskerville";*/
+
+	font-family: "Source Sans Pro",sans-serif;
+	font-style: normal;
+	font-weight: 800;
+
+ /* font-size:22px;*/
+}
+
+body{
+  /*font-family: 'Crimson Text';*/
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:18px;
+}
+
+
+
+/*.chart {
+  height: 500px;
+}*/
+
+
+.the-table td {
+	position: relative;
+}
+
+.the-table .bar {
+	background-color: #fb8d25;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity:.9;
+}
+
+.the-table .val {
+	z-index: 3;
+	display: inline-block;
+	position: relative;
+	text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff ;
+}
+
+td.num {
+	min-width: 100px;
+}
+
+.org-table {
+	font-size: 14px;
+}
+
+
+.card {
+	width: 100%;
+	display: none;
+	padding: 15px 30px;
+	position: relative;
+}
+
+.close-btn {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	cursor: pointer;
+	color: #999;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.close-btn:hover {
+	color: #333;
+}
